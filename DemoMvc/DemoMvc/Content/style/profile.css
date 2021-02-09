@@ -1,0 +1,47 @@
+﻿body {
+    
+}
+#profileFormLayout{
+padding-top:50px;
+}
+.user-profile-image{
+    border:0px solid #ededed;
+    border-radius:3px; right:0;position:absolute;
+}
+.user-profile-image img{
+    height:300px;
+    cursor:pointer;
+}
+    .user-profile-image:hover .upload-photo {
+        transform:scaleY(1);
+    }
+.user-profile-image .upload-photo{
+    background:#242424;
+    opacity:0.7;
+    width:98%;
+    height:50px;
+    position:absolute;bottom:30px;left:1px;
+    transform:scaleY(0);
+    transition:0.3s;
+    transform-origin:bottom;
+}
+.user-profile-image .upload-photo::before{
+    content:'Change Photo';
+    color:#fff;
+    position:absolute;
+    top:12px;left:90px;opacity:1;font-size:20px;
+}
+.user-profile-image .upload-photo img{
+    height:30px; width:30px; color:#fff;position:absolute; top:7px; left:50px;
+}
+.user-profile-image .remove-photo{
+     position:absolute; top:0; right:5px;border:2px solid #ddd; padding:10px;opacity:1;
+    cursor:pointer;transform:scaleY(0);transition:0.3s; transform-origin:top;
+}
+.user-profile-image:hover .remove-photo{transform:scaleY(1);}
+.user-profile-image .remove-photo .glyphicon-remove{
+    color:#808080;
+}
+.user-profile-image .remove-photo:hover .glyphicon-remove{
+    color:#000000;
+}

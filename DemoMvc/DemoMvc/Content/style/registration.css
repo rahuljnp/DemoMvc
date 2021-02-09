@@ -1,0 +1,38 @@
+﻿body {
+    background-color:aliceblue;
+}
+#registrationformLayoutbody{
+    padding-top:40px;
+}
+#registrationformLayout{
+    background-color:white; padding:20px;
+}
+#registrationformLayout #registrationform {
+    background-color:white;
+    padding-left:50px;
+}
+#registrationformLayout #registrationform h3{
+    margin:0;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+    
+}
+
+#registrationformLayout #registrationform input[type="text"]{
+   
+}
+
+#registrationformLayout #registrationform .input-group-addon{
+    background:none;
+}
+#registrationformLayout #registrationform input[type="submit"]{
+   border-radius:30px;width:100px;
+}
+#registrationformLayout #registrationform input[type="submit"]:hover{
+   border-radius:30px;width:100px;background-color:blueviolet;
+}
+#registrationformLayout #registrationimage{
+    border-left:1px solid #ddd;
+}

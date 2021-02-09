@@ -1,0 +1,38 @@
+﻿body {
+    background-color:aliceblue;
+}
+#registrationformLayoutbody{
+    padding-top:40px;
+}
+#LoginFormLayout {
+    background-color:white; padding:20px;
+}
+#LoginFormLayout #loginForm {
+    background-color:white;
+    padding-left:50px;
+}
+#LoginFormLayout #loginForm h3{
+    margin:0;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri
+    
+}
+
+#LoginFormLayout #loginForm input[type="text"]{
+   
+}
+
+#LoginFormLayout #loginForm .input-group-addon{
+    background:none;
+}
+#LoginFormLayout #loginForm input[type="submit"]{
+   border-radius:30px;width:100px;
+}
+#LoginFormLayout #loginForm input[type="submit"]:hover{
+   border-radius:30px;width:100px;background-color:blueviolet;
+}
+#LoginFormLayout #loginImage{
+    border-right:1px solid #ddd;
+}
